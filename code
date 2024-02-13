@@ -1,0 +1,13 @@
+void setup() 
+{
+for(int i=9;i<=12;i++)
+{
+  pinMode(i, OUTPUT);
+}
+}
+void loop() {
+for(int i=9;i<=12;i++)
+{digitalWrite(i, HIGH);
+  delay(500);
+  digitalWrite(i, LOW);}
+}
